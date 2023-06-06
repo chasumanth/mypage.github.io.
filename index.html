@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> created by sumanth</title>
+</head>
+<body>
+    <a href="contact_us.html" class="CONTACT_US">CONTACT US</a>
+    <form id="login-form">
+    <div class="image">
+    </div>
+    <div class="border" id="login-form"><i class="ins">AIOW</i>
+        <br>
+       <input class="enter" placeholder="username" id="username" >
+        <br>
+       <input class="ente" type="password" placeholder="password" id="password">
+       <br>
+       <button type="submit" class="login">Log in</button>
+       <br>
+       <p id="error-msg"></p>
+        <p id="sucess"></p>
+    </div>
+    
+    </form>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+           
+            overflow-x: hidden;
+        }
+        body{
+            text-align: center;
+            background:rgba(0, 0, 0, 0.87);
+            
+        }
+        .CONTACT_US{
+            position: absolute;
+            text-decoration: none;
+            display: block;
+            justify-content: end;
+            margin-top: 1rem;
+            margin-left: 1rem;
+            color:aliceblue;
+            border-radius: 20%;
+            
+
+        }
+        #error-msg{
+            color: red;
+            font-size: 25px;
+            
+        }
+        #sucess{
+            color: greenyellow;
+           
+        }
+        .border{
+            border: 1px solid black;
+            width: 25%;
+            margin: 200px;
+            margin-right: 59%;
+            margin-left: 35%;
+            margin-top: 200px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background: rgba(180, 179, 185, 0.984);
+            font-size: 40px;
+            
+        }
+        .enter{
+            padding-right: 90px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            background:rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+
+        .ente{
+            padding-right: 90px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background: rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+        a{
+            font-size: 18px;
+            
+        }
+        .login{
+            height: 25px;
+            width: 70%;
+            background: black;
+            color:white;
+
+        }
+        @media screen and (max-width:1100px){
+            .border{
+            border: 1px solid black;
+            width: 55%;
+            margin: 240px;
+            margin-right: 46%;
+            margin-left: 24%;
+            margin-top: 200px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background:rgba(180, 179, 185, 0.984);
+            font-size: 40px;
+        }
+        .enter{
+            padding-right: 90px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            background:rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+
+        .ente{
+            padding-right: 90px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background: rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+        a{
+            font-size: 18px;
+            
+        }
+        .login{
+            height: 25px;
+            width: 45%;
+            background: black;
+            color:whitesmoke;
+
+
+        }
+        @media screen and (max-width:550px){
+            .border{
+            border: 1px solid black;
+            width: 75%;
+            margin: 240px;
+            margin-right: 59%;
+            margin-left: 14%;
+            margin-top: 200px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background:rgba(180, 179, 185, 0.984);
+            font-size: 40px;
+        }
+        .enter{
+            padding-right: 90px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            background:rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+
+        .ente{
+            padding-right: 90px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background: rgb(248, 244, 244);
+            padding-left: 5px;
+        }
+        a{
+            font-size: 18px;
+            
+        }
+        .login{
+            height: 25px;
+            width: 70%;
+            background: black;
+            color:whitesmoke;
+
+        }
+        @media screen and (max-width:350px){
+            .border{
+            border: 1px solid black;
+            width: 95%;
+            margin: 150px;
+           
+            margin-left: 3%;
+            margin-top: 200px;
+            overflow: hidden;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background:rgba(180, 179, 185, 0.984);
+            font-size: 40px;
+        }
+        .enter{
+            padding-right: 90px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            background:rgb(248, 244, 244);
+            padding-left: 5px;
+            width: 50%;
+        }
+
+        .ente{
+            padding-right: 90px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background: rgb(248, 244, 244);
+            padding-left: 5px;
+            width: 50%;
+        }
+        a{
+            font-size: 18px;
+            
+        }
+        .login{
+            height: 25px;
+            width: 70%;
+            background: black;
+            color:whitesmoke;
+
+        }
+        #error-msg{
+            color: red;
+            font-size: 15px;
+            
+        }
+        #sucess{
+            color: greenyellow;
+            font-size: 15px;
+           
+        }
+        }
+       
+        }
+       
+    }
+
+    </style>
+    <script src="index.js"></script>
+</body>
+</html>
